@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GuS-nr-6CA">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HesapMakinesi1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="opu-bF-iOl">
+                                <rect key="frame" x="10" y="253" width="373" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="7Lm-OW-oFV">
+                                <rect key="frame" x="10" y="337" width="373" height="481"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ufg-kj-CG7">
+                                        <rect key="frame" x="0.0" y="0.0" width="91.666666666666671" height="481"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr6-5p-sNr" userLabel="AC">
+                                                <rect key="frame" x="0.0" y="0.0" width="91.666666666666671" height="92.333333333333329"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <rect key="contentStretch" x="0.34999999999999998" y="0.0" width="1" height="1"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="AC            ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="acButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssH-D7-d6X"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAW-Ue-8X4">
+                                                <rect key="frame" x="0.0" y="97.333333333333314" width="91.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yediButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbL-na-Dgp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0o-xp-ZPW">
+                                                <rect key="frame" x="0.0" y="194.33333333333337" width="91.666666666666671" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="dortButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbY-Li-CKz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9X-Su-L6z">
+                                                <rect key="frame" x="0.0" y="291.66666666666663" width="91.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="birButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dMU-kX-Pu7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnn-6I-YsO">
+                                                <rect key="frame" x="0.0" y="388.66666666666663" width="91.666666666666671" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="figure.socialdance" catalog="system">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Hnn-6I-YsO" firstAttribute="height" secondItem="Wr6-5p-sNr" secondAttribute="height" id="8sB-Rd-5G0"/>
+                                            <constraint firstItem="g0o-xp-ZPW" firstAttribute="height" secondItem="Wr6-5p-sNr" secondAttribute="height" id="M2d-kO-EnU"/>
+                                            <constraint firstItem="b9X-Su-L6z" firstAttribute="height" secondItem="Wr6-5p-sNr" secondAttribute="height" id="mNI-pz-Dbg"/>
+                                            <constraint firstItem="bAW-Ue-8X4" firstAttribute="height" secondItem="Wr6-5p-sNr" secondAttribute="height" id="xdh-U3-Ysz"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Red-LA-sHs">
+                                        <rect key="frame" x="93.666666666666686" y="0.0" width="92" height="481"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypN-nK-Ppz">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="92.333333333333329"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="+/-">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="negatifButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9m6-nP-XTH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yu1-tV-D55">
+                                                <rect key="frame" x="0.0" y="97.333333333333314" width="92" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="sekizButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QYq-dt-OF6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5st-vd-486">
+                                                <rect key="frame" x="0.0" y="194.33333333333337" width="92" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="besButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1mh-OJ-1TO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyw-e5-9x7">
+                                                <rect key="frame" x="0.0" y="291.66666666666663" width="92" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="ikiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eEe-Mr-ny2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpr-an-K2B">
+                                                <rect key="frame" x="0.0" y="388.66666666666663" width="92" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="sifirButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZG-w5-bUd"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Zpr-an-K2B" firstAttribute="height" secondItem="ypN-nK-Ppz" secondAttribute="height" id="1fr-yT-d8t"/>
+                                            <constraint firstItem="Yu1-tV-D55" firstAttribute="height" secondItem="ypN-nK-Ppz" secondAttribute="height" id="3mM-5P-bkj"/>
+                                            <constraint firstItem="5st-vd-486" firstAttribute="height" secondItem="ypN-nK-Ppz" secondAttribute="height" id="Nn7-od-1EK"/>
+                                            <constraint firstItem="jyw-e5-9x7" firstAttribute="height" secondItem="ypN-nK-Ppz" secondAttribute="height" id="PJz-MP-7G4"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2ff-4a-3gG">
+                                        <rect key="frame" x="187.66666666666666" y="0.0" width="91.666666666666657" height="481"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUN-0U-RIk">
+                                                <rect key="frame" x="0.0" y="0.0" width="91.666666666666671" height="92.333333333333329"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="%">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yuzdelikButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AgD-zh-WxL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKj-Pa-uMF">
+                                                <rect key="frame" x="0.0" y="97.333333333333314" width="91.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="dokuzButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c8x-jT-nkD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRT-eR-51k">
+                                                <rect key="frame" x="0.0" y="194.33333333333337" width="91.666666666666671" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="altiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ATX-1X-eqw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5W-R0-toR">
+                                                <rect key="frame" x="0.0" y="291.66666666666663" width="91.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="ucButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Hc-gM-FQB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36M-JE-E8L">
+                                                <rect key="frame" x="0.0" y="388.66666666666663" width="91.666666666666671" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=",">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="virgulButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M2g-Yn-hiZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="36M-JE-E8L" firstAttribute="height" secondItem="SUN-0U-RIk" secondAttribute="height" id="4y0-BO-7nk"/>
+                                            <constraint firstItem="x5W-R0-toR" firstAttribute="height" secondItem="SUN-0U-RIk" secondAttribute="height" id="Pb4-pG-9BT"/>
+                                            <constraint firstItem="JKj-Pa-uMF" firstAttribute="height" secondItem="SUN-0U-RIk" secondAttribute="height" id="foE-qj-Ukf"/>
+                                            <constraint firstItem="rRT-eR-51k" firstAttribute="height" secondItem="SUN-0U-RIk" secondAttribute="height" id="zqy-Zg-LQK"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="spatial" horizontalHuggingPriority="258" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZsI-Ic-ImE" customClass="stackView1">
+                                        <rect key="frame" x="281.33333333333331" y="0.0" width="91.666666666666686" height="481"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4K-6L-u6R">
+                                                <rect key="frame" x="0.0" y="0.0" width="91.666666666666671" height="92.333333333333329"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="/">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="bolmeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fzn-kq-1w6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2x-3B-6pK">
+                                                <rect key="frame" x="0.0" y="97.333333333333314" width="91.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="*">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="carpmaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeJ-xy-Z5x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgY-JN-wYx">
+                                                <rect key="frame" x="0.0" y="194.33333333333337" width="91.666666666666671" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="-">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="eksiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdf-Zw-3Gh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jS9-W3-Rxp">
+                                                <rect key="frame" x="0.0" y="291.66666666666663" width="91.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="toplamaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1TN-3W-d9j"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcH-Yf-9hb">
+                                                <rect key="frame" x="0.0" y="388.66666666666663" width="91.666666666666671" height="92.333333333333314"/>
+                                                <color key="backgroundColor" name="arkaPlanRengi2"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="=">
+                                                    <color key="baseForegroundColor" name="yaziRengi"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="esittirButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SnT-QO-5x6"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstItem="W2x-3B-6pK" firstAttribute="height" secondItem="D4K-6L-u6R" secondAttribute="height" id="eeH-yq-uUk"/>
+                                            <constraint firstItem="VgY-JN-wYx" firstAttribute="height" secondItem="D4K-6L-u6R" secondAttribute="height" id="iPN-Q0-ELR"/>
+                                            <constraint firstItem="XcH-Yf-9hb" firstAttribute="height" secondItem="D4K-6L-u6R" secondAttribute="height" id="icu-6T-uNT"/>
+                                            <constraint firstItem="jS9-W3-Rxp" firstAttribute="height" secondItem="D4K-6L-u6R" secondAttribute="height" id="mK5-Tt-igL"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="arkaPlanRengi"/>
+                        <constraints>
+                            <constraint firstItem="7Lm-OW-oFV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="1ed-d9-m2U"/>
+                            <constraint firstItem="7Lm-OW-oFV" firstAttribute="top" secondItem="opu-bF-iOl" secondAttribute="bottom" constant="50" id="3Yn-lZ-EmJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Lm-OW-oFV" secondAttribute="trailing" constant="10" id="8Tp-7d-zba"/>
+                            <constraint firstItem="opu-bF-iOl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="Vfc-WZ-KPa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Lm-OW-oFV" secondAttribute="bottom" id="XlU-mK-SOu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="opu-bF-iOl" secondAttribute="bottom" constant="531" id="YSl-af-uOS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="opu-bF-iOl" secondAttribute="trailing" constant="10" id="r5m-YB-C7n"/>
+                            <constraint firstItem="opu-bF-iOl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="xAo-gl-J00"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="w5h-vV-sIt"/>
+                    <connections>
+                        <outlet property="labelTextField" destination="opu-bF-iOl" id="gdd-ai-sJF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Z1r-HK-9Jh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GuS-nr-6CA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8jX-Lp-Mr4">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ehV-bU-hzN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRi-9Y-E4r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="figure.socialdance" catalog="system" width="128" height="105"/>
+        <namedColor name="arkaPlanRengi">
+            <color red="0.25099998712539673" green="0.25099998712539673" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="arkaPlanRengi2">
+            <color red="0.94900000095367432" green="0.71799999475479126" blue="0.019999999552965164" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRengi">
+            <color red="0.94900000095367432" green="0.45899999141693115" blue="0.027000000700354576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
